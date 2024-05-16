@@ -1,0 +1,5 @@
+  857  grep -i "JavaScript" wilders.csv | grep -i "Toulouse" > javascript_toulouse.csv
+  858  grep -i "JavaScript" wilders.csv | grep -i "Biarritz" > javascript_biarritz.csv
+  859  cat javascript_biarritz.csv javascript_toulouse.csv >javascript_toulouse_biarritz.csv
+  860   cat javascript_toulouse_biarritz.csv
+  
